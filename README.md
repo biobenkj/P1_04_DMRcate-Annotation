@@ -1,10 +1,10 @@
-# P1MethylData
+# P1 Identify regions and annotate
 
 #Notes
+Process output of differential methylation output through DMRcate and prep them for NetWAS. 
 
-After files that have the glmm and gamlss tests done to the Illumina EPIC array data, These files are meant to process the data through DMRcate and prep them for NetWAS. For this to work the files need to be ran in this order: 
+Scripts must be run in this order: 
 Note: use the most recent edition of each. 
-
 
 1. DMRcatewNegativeArgument
 2. DMRcate
