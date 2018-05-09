@@ -56,7 +56,6 @@ dmrcate= function (object, lambda = 1000, C = NULL, p.adjust.method = "BH",
   object <- object[o, ]
   chr <- as.character(object$CHR)
   pos <- object$pos
-  stopifnot(sum(object$sig) >= 2)
   bychr <- function(i) {
     this.chr <- object[object$CHR %in% i, ]
     n <- nrow(this.chr)
